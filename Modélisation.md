@@ -27,12 +27,12 @@ les entités
 les relations
 
 
-<font color="red">les propriétés </font>: sont les info de base de la choses ce sont les informations de base elle disposent d’un type d’une longueurs ( pas tout le temps ) 
+les propriétés : sont les infos de base de la choses ce sont les informations de base elle disposent d’un type d’une longueurs ( pas tout le temps ) 
 info !! au niveau conceptuelle nous ne devons pas écrire le type des propriétés et simplements les nommé
 
 
-<font color="red">les entités </font>: son un ensemble de propriéts qui décrivent un objet du système d’info 
+les entités: son un ensemble de propriéts qui décrivent un objet du système d’info 
 
-<font color="red">une propriétés </font> :est dites particulières au niveau du MCD nous allons l’appeler « Identifiants » c’est une propriété qui permet l’indentification de l’entité de manières unique une entité à toujours une ID différentes qu’une autre entités dans un MCD (il est souligné dans un MCD ) 
+une propriétés:est dites particulières au niveau du MCD nous allons l’appeler « Identifiants » c’est une propriété qui permet l’indentification de l’entité de manières unique une entité à toujours une ID différentes qu’une autre entités dans un MCD (il est souligné dans un MCD ) 
 
-relations 
+relations les entités seront relier par des relations qui permettent de relier les entité entre elle un clients peut passer plusieurs commande  
