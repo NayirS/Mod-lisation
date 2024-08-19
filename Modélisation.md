@@ -35,4 +35,21 @@ les entités: son un ensemble de propriéts qui décrivent un objet du système 
 
 une propriétés:est dites particulières au niveau du MCD nous allons l’appeler « Identifiants » c’est une propriété qui permet l’indentification de l’entité de manières unique une entité à toujours une ID différentes qu’une autre entités dans un MCD (il est souligné dans un MCD ) 
 
-relations les entités seront relier par des relations qui permettent de relier les entité entre elle un clients peut passer plusieurs commande  
+relations les entités seront relier par des relations qui permettent de relier les entité entre elle un clients peut passer plusieurs commande. 
+
+**cardinalités** 
+
+ une mere peut elever un ou plusieurs enfants 
+un enfant peut etre elever par une seule mere   
+
+i dessus nous avons une relation qui fait intervenir deux entités : une relation binaire
+et 3 entités est dite ternaire
+
+toute les propriétés de l’entité dépend fonctionnellement de l’identifiant 
+le nom d’une propriété ( nom date .etc )  doit être unique au sein d’un mcd (d’une même table )
+une entité forte c’est une entité qui peut exister toute seul et qui n’a pas besoin d’exister en d’autre entité donc l’entité mère par exemple est une entité mère
+
+une entité enfant est une entité faible car c’est une entité qui a besoin de l’entité mère  , la plupart du temps une entité faible à besoin d’une entité forte pour exister 
+
+un econtraite d’integrite fonctionnelle ( CIF) 
+une cif est definie par le fait qu’une des entites de l’assocation est compeletement determinée par la connaissance d’uene ou plusieurs entite participant a l’association
