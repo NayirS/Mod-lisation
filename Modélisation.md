@@ -31,18 +31,22 @@ les propriétés : sont les infos de base de la choses ce sont les informations 
 info !! au niveau conceptuelle nous ne devons pas écrire le type des propriétés et simplements les nommé
 
 
-les entités: son un ensemble de propriéts qui décrivent un objet du système d’info 
+les entités: son un ensemble de propriétés qui décrivent un objet du système d’info 
+![alt text](<Capture d'écran 2024-08-19 121905.png>)
 
 une propriétés:est dites particulières au niveau du MCD nous allons l’appeler « Identifiants » c’est une propriété qui permet l’indentification de l’entité de manières unique une entité à toujours une ID différentes qu’une autre entités dans un MCD (il est souligné dans un MCD ) 
 
-relations les entités seront relier par des relations qui permettent de relier les entité entre elle un clients peut passer plusieurs commande. 
+les entités seront relier par des relations qui permettent de relier les entité entre elle un clients peut passer plusieurs commande. 
+![alt text](<Capture d'écran 2024-08-19 122402.png>)
 
 **cardinalités** 
 
  une mere peut elever un ou plusieurs enfants 
-un enfant peut etre elever par une seule mere   
+un enfant peut etre elever par une seule mere  
 
-i dessus nous avons une relation qui fait intervenir deux entités : une relation binaire
+![alt text](<Capture d'écran 2024-08-19 135627.png>)
+
+ci dessus nous avons une relation qui fait intervenir deux entités : une relation binaire
 et 3 entités est dite ternaire
 
 toute les propriétés de l’entité dépend fonctionnellement de l’identifiant 
@@ -51,5 +55,20 @@ une entité forte c’est une entité qui peut exister toute seul et qui n’a p
 
 une entité enfant est une entité faible car c’est une entité qui a besoin de l’entité mère  , la plupart du temps une entité faible à besoin d’une entité forte pour exister 
 
-un econtraite d’integrite fonctionnelle ( CIF) 
-une cif est definie par le fait qu’une des entites de l’assocation est compeletement determinée par la connaissance d’uene ou plusieurs entite participant a l’association
+un Contrainte d’integrite fonctionnelle ( CIF) 
+un cif est definie par le fait qu’une des entites de l’assocation est compeletement determinée par la connaissance d’uene ou plusieurs entite participant a l’association
+
+en général la cardinalité max est n des deux coté on crée une entité intermédiaire qui va contenir les deux clés étrangés donc on aurait pu crée une entité avec le nom de la relation par exemples dans  notres cas on aurait pu crée l’entité commande 
+
+si on commande deux fois la meme article la meme commande la meme article avec le meme clients on ne peut pas faire la meme commande avex 2 clé primaire identique donc on devrait ajouter une nouvelle clé étrangère pour les différencier par exemple dans ce cas sa sera la date donc on repensera au mcd (l’indentifiant de la commande dans notre cas et numero client et numero article ) 
+donc dans ce cas comme le numéro client et numéro article dans le mld on repasse en MCD pour rajouter l’entité date ou heures pour différencier et que ce soit pas la même pour la base de données 
+on créera une commande ou tout les info de la clé primaire est la même
+
+Voilà notre réponse au soucis du double article similaire on aura un mcd qui ressemblera à ça
+![alt text](<Capture d'écran 2024-08-20 100549.png>)
+
+ et le mld à ça 
+
+
+le modele physique c’est capable de passer de çà
+![alt text](<Capture d'écran 2024-08-20 105633.png>)
