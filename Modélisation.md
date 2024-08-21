@@ -72,3 +72,44 @@ Voilà notre réponse au soucis du double article similaire on aura un mcd qui r
 
 le modele physique c’est capable de passer de çà
 ![alt text](<Capture d'écran 2024-08-20 105633.png>)
+
+
+
+
+
+EXO 1
+
+Dictionnaire :  
+![alt text](<Capture d'écran 2024-08-21 091111.png>)
+
+
+MCD :
+
+![alt text](<MPD MYSQL EXO 1-1.png>)
+
+
+MLD : 
+
+![alt text](<EXO1 MLD-1.jpg>)
+
+
+MPD MYSQL :  
+![alt text](<MPD MYSQL EXO 1-1-1.png>)
+(fichier mysql dossier exo "Ferme" dans le dossier)
+
+<font color="red">**une relation  qui contient une propriété est porteuse donc elle devient une entité dans le mld est le mpd et quand elle a des cardinalités contenant un N des deux cotés**</font>
+
+EXO 2
+Dictionnaire : 
+![alt text](<Dictionnaire EXO 2.png>)
+
+MCD :
+![alt text](<EXO 2 MCD-1.png>)
+
+MLD : 
+![alt text](<EXO 2 MLD-1.png>)
+
+MPD AND MYSQL : 
+![alt text](<MYSQL EXO 2-1.png>)
+(fichier mysql dossier exo  "meuble" dans le dossier)
+
